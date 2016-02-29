@@ -1,0 +1,21 @@
+{
+  "name": "timber-foundation-starter-theme",
+  "authors": [
+    ""
+  ],
+  "description": "Basic starter theme combining Foundation for Sites and Timber.",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "foundation-sites": "~6.2.0",
+    "motion-ui": "~1.2.2",
+  },
+  "private": true
+}
