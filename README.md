@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-# Timber Foundation Starter Theme
+# Starter Theme for Timber & Foundation 6
 
 This is a basic starter theme for using [Foundation for Sites 6](http://foundation.zurb.com/sites) and [Timber](https://github.com/jarednova/timber) together.
 
@@ -34,6 +33,3 @@ Run `gulp watch` to run gulp. It will re-run every time you save a Sass or JavaS
 
 
 
-=======
-# timber-foundation-starter-theme
->>>>>>> 0ba655f5d4873c904263c242de394531a66c2d3c
