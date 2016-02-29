@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 vendor
 wp-content
+=======
+.sass-cache/
+*.css.map
+>>>>>>> 0ba655f5d4873c904263c242de394531a66c2d3c
