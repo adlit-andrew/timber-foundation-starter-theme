@@ -26,4 +26,8 @@ cd theme-name
 npm install
 bower install
 ```
+
+## Usage
 Run `gulp watch` to run gulp. It will re-run every time you save a Sass or JavaScript file.
+
+Compiled CSS will be output to `/css/app.css`. This is the file that should be enqueued, `style.css` should contain just the theme info.
