@@ -40,7 +40,7 @@ var PATHS = {
         // 'bower_components/foundation-sites/js/foundation.tabs.js',
         // 'bower_components/foundation-sites/js/foundation.toggler.js',
         // 'bower_components/foundation-sites/js/foundation.tooltip.js',
-        'src/js/**/*.js'
+        'src/js/app.js'
     ]
 };
 
@@ -73,6 +73,7 @@ gulp.task('javascript', function() {
 
     return gulp.src(PATHS.javascript)
         .pipe($.sourcemaps.init())
+        .pipe($.babel())
         .pipe($.concat('app.js'))
         .pipe(uglify)
         .pipe($.if(!isProduction, $.sourcemaps.write()))
